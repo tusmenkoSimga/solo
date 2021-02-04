@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ipc>
+	<figure>
+		<metadata>
+			<value id="9224bf0" name="Topic ID" decl-id="TOPIC_ID" changed="0">
+				<![CDATA[8889107575]]>
+			</value>
+			<value id="9224d70" name="CollectionName" decl-id="C3DCOLLECTION" changed="0">
+				<![CDATA[Generic IPC]]>
+			</value>
+		</metadata>
+		<media id="1" type="vm/vrml" src="8889107575.wrl">
+			<value name="IllustrationType">0</value>
+			<value name="3DBackgroundColor">#FFFFFF</value>
+			<value name="3DSelectedColor">#FFFF00</value>
+			<value name="TableBackgroundColor">#FFFFFF</value>
+			<value name="TableTextColor">#000000</value>
+			<value name="TableBackgroundColorSel">#EEEE00</value>
+			<value name="TableBackgroundColorHL">#C8E2E2</value>
+			<value name="TableBackgroundColorHLNotIll">#FFE4E1</value>
+			<value name="TableInactiveTextColor">#808080</value>
+			<value name="2DSelectedColor">#FFFF00</value>
+			<value name="2DHighLightColor">#00FF00</value>
+			<value name="ContextMenuBackgroundColor">#FFFFFF</value>
+			<value name="RemoveSpace">Yes</value>
+			<value name="SimplifyFloats">No</value>
+			<value name="CoordinateResolution">0</value>
+			<value name="TooltipFormat">Item:%[ITEM]</value>
+			<value name="UrlTarget">_blank</value>
+			<value name="DITATopic">Yes</value>
+			<value name="ForceDirectX">Yes</value>
+			<value name="ShowThrustLines">No</value>
+			<value name="UsePlugins">Yes</value>
+			<value name="PublicPath"/>
+			<value name="TotalMemory">512</value>
+			<value name="iOSBundle">No</value>
+			<value name="PublisherVersion">10.1.0.336 (64-bit)</value>
+			<value name="SpecID">IPC_WITH_CUSTOM_ATTRIBUTES</value>
+			<value name="SpecVersion">1.1</value>
+			<value name="SpecLang">en</value>
+			<value name="SpecClass">IPC</value>
+		</media>
+		<dplist>
+			<item id="933da40" refPart="931b980">
+				<metadata>
+					<value id="933c780" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[1]]>
+					</value>
+					<value id="933c800" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="933c880" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD]]>
+					</value>
+					<value id="933ca80" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[10]]>
+					</value>
+					<value id="9357b80" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bba0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[0]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:10]]>
+				</tooltip>
+				<commands>
+					<command id="93503d0" type="DFP" changed="0">
+						<value refMeta="933c780" name="Indent">
+							<![CDATA[1]]>
+						</value>
+						<value refMeta="9224df0" name="Description For Part">
+							<![CDATA[17 Inch Caliper]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_7_Inch_Caliper_1</refmedia>
+			</item>
+			<item id="9342fc0" refPart="924d470">
+				<metadata>
+					<value id="933cb00" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="933cb80" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="933cc00" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CLaR8LsG6Vq5bD]]>
+					</value>
+					<value id="933ce00" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[20]]>
+					</value>
+					<value id="9357d80" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bc20" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:20]]>
+				</tooltip>
+				<commands>
+					<command id="93507c0" type="DFP" changed="0">
+						<value refMeta="933cb00" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="92250f0" name="Description For Part">
+							<![CDATA[BLEEDER-SCREW]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">BLEEDER-SCREW_2</refmedia>
+			</item>
+			<item id="9343500" refPart="9322ad0">
+				<metadata>
+					<value id="9343f00" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9343f80" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9344000" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD y_eR8LsG6Vq5bD]]>
+					</value>
+					<value id="9344200" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[30]]>
+					</value>
+					<value id="9357f00" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bca0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:30]]>
+				</tooltip>
+				<commands>
+					<command id="9350ad0" type="DFP" changed="0">
+						<value refMeta="9343f00" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9321c50" name="Description For Part">
+							<![CDATA[CAP-BLEEDER-SCREW]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">CAP-BLEEDER-SCREW_3</refmedia>
+			</item>
+			<item id="9343a40" refPart="9322c50">
+				<metadata>
+					<value id="9344280" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9344300" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9344380" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CXUR8LsG6Vq5bD]]>
+					</value>
+					<value id="9344580" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[40]]>
+					</value>
+					<value id="9358080" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bd20" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[3]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:40]]>
+				</tooltip>
+				<commands>
+					<command id="9350e50" type="DFP" changed="0">
+						<value refMeta="9344280" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9321e50" name="Description For Part">
+							<![CDATA[DUST-BOOT-17INCH-CALIPER]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">DUST-BOOT-17INCH-CALIPER_4</refmedia>
+			</item>
+			<item id="9347fc0" refPart="9322d10">
+				<metadata>
+					<value id="9344600" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9344680" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9344700" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD SmdR8LsG6Vq5bD]]>
+					</value>
+					<value id="9344900" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[50]]>
+					</value>
+					<value id="9358200" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bda0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:50]]>
+				</tooltip>
+				<commands>
+					<command id="93686f0" type="DFP" changed="0">
+						<value refMeta="9344600" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9322250" name="Description For Part">
+							<![CDATA[CALIPER-HOUSING-17INCH-LH-L-BRAND]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">CALIPER-HOUSING-17INCH-LH-L-BRAND_5</refmedia>
+			</item>
+			<item id="9348500" refPart="9322e10">
+				<metadata>
+					<value id="9344980" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9344a00" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9344a80" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CjQR8LsG6Vq5bD]]>
+					</value>
+					<value id="9344c80" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[60]]>
+					</value>
+					<value id="936a6a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936be20" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[5]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:60]]>
+				</tooltip>
+				<commands>
+					<command id="9368a70" type="DFP" changed="0">
+						<value refMeta="9344980" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9322650" name="Description For Part">
+							<![CDATA[GUIDE-PIN-WITH-REINFORCEMENT]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">GUIDE-PIN-WITH-REINFORCEMENT_6</refmedia>
+			</item>
+			<item id="9348a40" refPart="9322f10">
+				<metadata>
+					<value id="9344d00" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9344d80" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9344e00" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CvVR8LsG6Vq5bD]]>
+					</value>
+					<value id="9345000" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[70]]>
+					</value>
+					<value id="936a820" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bea0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[6]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:70]]>
+				</tooltip>
+				<commands>
+					<command id="9368df0" type="DFP" changed="0">
+						<value refMeta="9344d00" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9322850" name="Description For Part">
+							<![CDATA[GUIDE-PIN]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">GUIDE-PIN_7</refmedia>
+			</item>
+			<item id="934bfc0" refPart="9322dd0">
+				<metadata>
+					<value id="9345080" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345100" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345180" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD C7RR8LsG6Vq5bD]]>
+					</value>
+					<value id="9345380" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[80]]>
+					</value>
+					<value id="936a9a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bf20" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[7]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:80]]>
+				</tooltip>
+				<commands>
+					<command id="9369170" type="DFP" changed="0">
+						<value refMeta="9345080" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9328c60" name="Description For Part">
+							<![CDATA[SCREW-GUIDE-PIN]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">SCREW-GUIDE-PIN_(1)_8</refmedia>
+				<refmedia ref="1">SCREW-GUIDE-PIN_(2)_9</refmedia>
+			</item>
+			<item id="934c500" refPart="9323110">
+				<metadata>
+					<value id="9345400" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345480" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345500" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD SDcR8LsG6Vq5bD]]>
+					</value>
+					<value id="9345700" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[90]]>
+					</value>
+					<value id="936ab20" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936bfa0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[8]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:90]]>
+				</tooltip>
+				<commands>
+					<command id="93694f0" type="DFP" changed="0">
+						<value refMeta="9345400" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9328e60" name="Description For Part">
+							<![CDATA[BOOT-GUIDE-PIN-FRONT-CALIPER]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">BOOT-GUIDE-PIN-FRONT-CALIPER_(1)_10</refmedia>
+				<refmedia ref="1">BOOT-GUIDE-PIN-FRONT-CALIPER_(2)_11</refmedia>
+			</item>
+			<item id="934ca40" refPart="9323210">
+				<metadata>
+					<value id="9345780" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345800" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9345880" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD SPYR8LsG6Vq5bD]]>
+					</value>
+					<value id="9345a80" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[100]]>
+					</value>
+					<value id="936aca0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c020" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[9]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:100]]>
+				</tooltip>
+				<commands>
+					<command id="9369870" type="DFP" changed="0">
+						<value refMeta="9345780" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="9329260" name="Description For Part">
+							<![CDATA[ANCHOR-17INCH-L-BRAND]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">ANCHOR-17INCH-L-BRAND_12</refmedia>
+			</item>
+			<item id="93553c0" refPart="93232d0">
+				<metadata>
+					<value id="9345b00" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345b80" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[2]]>
+					</value>
+					<value id="9345c00" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD z1WRNh6M6Vq5bD]]>
+					</value>
+					<value id="9345e00" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[110]]>
+					</value>
+					<value id="936ae20" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c0a0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[10]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:110]]>
+				</tooltip>
+				<commands>
+					<command id="9369bf0" type="DFP" changed="0">
+						<value refMeta="9345b00" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="93295e0" name="Description For Part">
+							<![CDATA[PAD SHIM 17INCH]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">PAD_SHIM_17INCH_(1)_13</refmedia>
+				<refmedia ref="1">PAD_SHIM_17INCH_(2)_14</refmedia>
+			</item>
+			<item id="9355900" refPart="9323410">
+				<metadata>
+					<value id="9356300" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9356380" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9356400" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD 1eSRNffo6Vq5bD]]>
+					</value>
+					<value id="9356600" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[120]]>
+					</value>
+					<value id="936afa0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c120" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[11]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:120]]>
+				</tooltip>
+				<commands>
+					<command id="9369f70" type="DFP" changed="0">
+						<value refMeta="9356300" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="93299e0" name="Description For Part">
+							<![CDATA[COMF-PAD-INNER-WITH-PWI-17INCH-LH-L-BRAND]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">COMF-PAD-INNER-WITH-PWI-17INCH-LH-L-BRAND_15</refmedia>
+			</item>
+			<item id="9355e40" refPart="9323510">
+				<metadata>
+					<value id="9356680" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9356700" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9356780" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD 1mcRNffo6Vq5bD]]>
+					</value>
+					<value id="9356980" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[130]]>
+					</value>
+					<value id="936b120" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c1a0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[12]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:130]]>
+				</tooltip>
+				<commands>
+					<command id="936a2f0" type="DFP" changed="0">
+						<value refMeta="9356680" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932be60" name="Description For Part">
+							<![CDATA[COMF-PAD-OUTER-17INCH-L-BRAND]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">COMF-PAD-OUTER-17INCH-L-BRAND_16</refmedia>
+			</item>
+			<item id="935a7c0" refPart="9323610">
+				<metadata>
+					<value id="9356a00" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9356a80" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[2]]>
+					</value>
+					<value id="9356b00" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD QVSV9Pgj6Vq5bD]]>
+					</value>
+					<value id="9356d00" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[140]]>
+					</value>
+					<value id="936b2a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c220" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[13]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:140]]>
+				</tooltip>
+				<commands>
+					<command id="936f2f0" type="DFP" changed="0">
+						<value refMeta="9356a00" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932c260" name="Description For Part">
+							<![CDATA[FLANGE SCREW M14*50]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">FLANGE_SCREW_M14*50_(1)_17</refmedia>
+				<refmedia ref="1">FLANGE_SCREW_M14*50_(2)_18</refmedia>
+			</item>
+			<item id="935ad00" refPart="9323790">
+				<metadata>
+					<value id="9356d80" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9356e00" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9356e80" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CLZlOhQK6Vq5bD]]>
+					</value>
+					<value id="9357080" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[150]]>
+					</value>
+					<value id="936b3a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c2a0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[14]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:150]]>
+				</tooltip>
+				<commands>
+					<command id="936f670" type="DFP" changed="0">
+						<value refMeta="9356d80" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932c5e0" name="Description For Part">
+							<![CDATA[17INCH-FRONT-DISC-GEELY-SANYOU]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_7INCH-FRONT-DISC-GEELY-SANYOU_19</refmedia>
+			</item>
+			<item id="935b240" refPart="93238d0">
+				<metadata>
+					<value id="9357100" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9357180" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9357200" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD NZTJ$W2T6Vq5bD]]>
+					</value>
+					<value id="9357400" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[160]]>
+					</value>
+					<value id="936b4a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c320" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[15]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:160]]>
+				</tooltip>
+				<commands>
+					<command id="936f9f0" type="DFP" changed="0">
+						<value refMeta="9357100" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932c960" name="Description For Part">
+							<![CDATA[SIX POINT SOCKET SCREW M6*16]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">SIX_POINT_SOCKET_SCREW_M6*16_20</refmedia>
+			</item>
+			<item id="935f260" refPart="9323a10">
+				<metadata>
+					<value id="9357480" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9357500" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[1]]>
+					</value>
+					<value id="9357580" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD XuRhtCp66Vq5bD]]>
+					</value>
+					<value id="9357780" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[170]]>
+					</value>
+					<value id="936b5a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c3a0" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[16]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:170]]>
+				</tooltip>
+				<commands>
+					<command id="936fd70" type="DFP" changed="0">
+						<value refMeta="9357480" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932d5e0" name="Description For Part">
+							<![CDATA[BRAKE DUST SHIELD 17INCH FRONT LH]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">BRAKE_DUST_SHIELD_17INCH_FRONT_LH_21</refmedia>
+			</item>
+			<item id="935f7a0" refPart="932e520">
+				<metadata>
+					<value id="9357800" name="Indent" decl-id="IND" changed="0" role="5">
+						<![CDATA[2]]>
+					</value>
+					<value id="9357880" name="Quantity" decl-id="QNA" changed="0" role="6">
+						<![CDATA[3]]>
+					</value>
+					<value id="9357900" name="$DPLUpdateID" decl-id="DPL_UPDATE_ID_315CC47A395544E991A891454693E624" changed="0">
+						<![CDATA[9XYtcuAC6Vq5bD CgeJ$mzP6Vq5bD]]>
+					</value>
+					<value id="9357b00" name="ITEM" decl-id="ITEM" changed="0" role="3">
+						<![CDATA[180]]>
+					</value>
+					<value id="936b6a0" name="URL" decl-id="_B479653540A9423B8170B31E38783811" changed="0"/>
+					<value id="936c420" name="$SEQ#" decl-id="_77ABE3CE57FD4C75A1C1332947348DCE" changed="0">
+						<![CDATA[17]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[Item:180]]>
+				</tooltip>
+				<commands>
+					<command id="93700f0" type="DFP" changed="0">
+						<value refMeta="9357800" name="Indent">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="932d8e0" name="Description For Part">
+							<![CDATA[SEMS SCREW M6*12]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">SEMS_SCREW_M6*12_(1)_22</refmedia>
+				<refmedia ref="1">SEMS_SCREW_M6*12_(2)_23</refmedia>
+				<refmedia ref="1">SEMS_SCREW_M6*12_(3)_24</refmedia>
+			</item>
+		</dplist>
+		<ipc-table>
+			<table>
+				<thead>
+					<row>
+						<entry/>
+						<entry column-id="ITEM" width="4">
+							<para>
+								<![CDATA[ITEM]]>
+							</para>
+						</entry>
+						<entry column-id="DESCR" width="26">
+							<para>
+								<![CDATA[DESCRIPTION]]>
+							</para>
+						</entry>
+						<entry column-id="PARTNUMBER" width="15">
+							<para>
+								<![CDATA[PART NO.]]>
+							</para>
+						</entry>
+						<entry column-id="QTY" width="3">
+							<para>
+								<![CDATA[QTY]]>
+							</para>
+						</entry>
+						<entry column-id="INFO" width="8">
+							<para>
+								<![CDATA[INFO]]>
+							</para>
+						</entry>
+						<entry column-id="_A300BE1597DB4C4492248C4E8298577E" width="40">
+							<para>
+								<![CDATA[Variant Info]]>
+							</para>
+						</entry>
+						<entry column-id="_659A154F71564EF28BD9C9471F2D2B15" width="35">
+							<para>
+								<![CDATA[Spare Part ID]]>
+							</para>
+						</entry>
+						<entry column-id="_9BDAF653B3614ECFB66E3148CA21798F" width="38">
+							<para>
+								<![CDATA[Service Validity]]>
+							</para>
+						</entry>
+						<entry column-id="_07A7F514FDC340C99FAE1A13D260AB5A" width="6">
+							<para>
+								<![CDATA[Model Year]]>
+							</para>
+						</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row refItem="933da40">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[10]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="93503d0">
+								<![CDATA[17 Inch Caliper]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8889107575]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9342fc0">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[20]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="93507c0">
+								<![CDATA[•BLEEDER-SCREW]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206568]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888641107/A-KIT-BLEEDER SCREW KIT]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9343500">
+						<entry>
+							<para>
+								<![CDATA[
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[30]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9350ad0">
+								<![CDATA[•CAP-BLEEDER-SCREW]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206567]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206567/A-SINGLE-CAP-BLEEDER-SCR
+EW, 8888641107/A-KIT-BLEEDER SCREW
+KIT]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9343a40">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[40]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9350e50">
+								<![CDATA[•DUST-BOOT-17INCH-CALIPER]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206569]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206569/A-SINGLE-DUST-BOOT-17INC
+H-CALIPER]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9347fc0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[50]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="93686f0">
+								<![CDATA[•CALIPER-HOUSING-17INCH-LH
+ -L-BRAND]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206504]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206504/A-SINGLE-CALIPER-HOUSING
+-17INCH-LH-FRONT]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9348500">
+						<entry>
+							<para>
+								<![CDATA[
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[60]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9368a70">
+								<![CDATA[•GUIDE-PIN-WITH-REINFORCEM
+ ENT]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206571]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR
+CALIPER, 8888640646/A-KIT-GUIDE PIN
+KIT FRONT CALIPER]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9348a40">
+						<entry>
+							<para>
+								<![CDATA[
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[70]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9368df0">
+								<![CDATA[•GUIDE-PIN]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206578]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR
+CALIPER, 8888640646/A-KIT-GUIDE PIN
+KIT FRONT CALIPER]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="934bfc0">
+						<entry>
+							<para>
+								<![CDATA[
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[80]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9369170">
+								<![CDATA[•SCREW-GUIDE-PIN]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206580]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR
+CALIPER, 8888640646/A-KIT-GUIDE PIN
+KIT FRONT CALIPER]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="934c500">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[90]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="93694f0">
+								<![CDATA[•BOOT-GUIDE-PIN-FRONT-CALI
+ PER]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206585]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888640646/A-KIT-GUIDE PIN KIT
+FRONT CALIPER]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="934ca40">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[100]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9369870">
+								<![CDATA[•ANCHOR-17INCH-L-BRAND]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888206588]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888654084/A-KIT-ANCHOR KIT 17INCH
+FRONT]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="93553c0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[110]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9369bf0">
+								<![CDATA[•PAD SHIM 17INCH]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888214127]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17
+INCH FRONT COMF]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9355900">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[120]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="9369f70">
+								<![CDATA[•COMF-PAD-INNER-WITH-PWI-1
+ 7INCH-LH-L-BRAND]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888219808]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17
+INCH FRONT COMF]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="9355e40">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[130]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="936a2f0">
+								<![CDATA[•COMF-PAD-OUTER-17INCH-L-B
+ RAND]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888219815]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17
+INCH FRONT COMF]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="935a7c0">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[140]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="936f2f0">
+								<![CDATA[•FLANGE SCREW M14*50]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888323576]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[[GD_1]AK00 = AK04 | [GD_1]AK00 = AK03]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888653663/A-KIT-ANCHOR KIT 16INCH
+FRONT, 8888654084/A-KIT-ANCHOR KIT
+17INCH FRONT, 8888654412/A-KIT-BRAK
+E DISC KIT 16INCH FRONT,
+8888654423/A-KIT-BRAKE DISC KIT
+17INCH FRONT, 8888323576/B-SINGLE-F
+LANGE SCREW M14 X 50]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="935ad00">
+						<entry>
+							<para>
+								<![CDATA[
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[150]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="936f670">
+								<![CDATA[•17INCH-FRONT-DISC-GEELY-S
+ ANYOU]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888942464]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[((([GD_1]KB00 = KB06 & ([GD_1]AA00 =
+AA04 | [GD_1]AA00 = AA09 | [GD_1]AA00 =
+AA07 | [GD_1]AA00 = AAA9))))]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8889033004/A-KIT-17INCH-FRONT-DISC-
+GEELY-SANYOU]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="935b240">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[160]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="936f9f0">
+								<![CDATA[•SIX POINT SOCKET SCREW
+ M6*16]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888007182]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[([GD_1]AK00 = AK04 | [GD_1]AK00 = AK03)]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888007182/A-SINGLE-SIX POINT
+SOCKET SCREW M6*16]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="935f260">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[170]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="936fd70">
+								<![CDATA[•BRAKE DUST SHIELD 17INCH
+ FRONT LH]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888764905]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[((([GD_1]KB00 = KB06 & [GD_1]ML00 = ML02
+& [GD_1]AA00 = AA03) | ([GD_1]KB00 =
+KB06 & ([GD_1]AA00 = AA04 | [GD_1]AA00 =
+AA07 | [GD_1]AA00 = AA09))))]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888764905/A-SINGLE-BRAKE DUST
+SHIELD 17INCH FRONT LH]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="935f7a0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[180]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="93700f0">
+								<![CDATA[•SEMS SCREW M6*12]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888008914]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[3]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[[GD_1]AK00 = AK04 | [GD_1]AK00 = AK03]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8888008914/A-SINGLE-SEMS SCREW
+M6X12]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+				</tbody>
+			</table>
+		</ipc-table>
+		<bgmedia/>
+		<views>
+			<view id="view_0" stepid="view_0" changed="0" revst="U" hidden="0">
+				<description>5100</description>
+				<transition id="view_1" stepid="trans_0"/>
+				<viewpoint>
+					<refmedia ref="1">
+						<![CDATA[vp_0]]>
+					</refmedia>
+				</viewpoint>
+				<refItem ref="933da40"/>
+				<refItem ref="9342fc0"/>
+				<refItem ref="9343500"/>
+				<refItem ref="9343a40"/>
+				<refItem ref="9347fc0"/>
+				<refItem ref="9348500"/>
+				<refItem ref="9348a40"/>
+				<refItem ref="934bfc0"/>
+				<refItem ref="934c500"/>
+				<refItem ref="934ca40"/>
+				<refItem ref="93553c0"/>
+				<refItem ref="9355900"/>
+				<refItem ref="9355e40"/>
+				<refItem ref="935a7c0"/>
+				<refItem ref="935ad00"/>
+				<refItem ref="935b240"/>
+				<refItem ref="935f260"/>
+				<refItem ref="935f7a0"/>
+				<metadata/>
+				<refmedia ref="1"/>
+			</view>
+			<view id="view_1" stepid="view_1" changed="0" revst="U" hidden="0">
+				<description>Exploded</description>
+				<viewpoint>
+					<refmedia ref="1">
+						<![CDATA[vp_1]]>
+					</refmedia>
+				</viewpoint>
+				<refItem ref="933da40"/>
+				<refItem ref="9342fc0"/>
+				<refItem ref="9343500"/>
+				<refItem ref="9343a40"/>
+				<refItem ref="9347fc0"/>
+				<refItem ref="9348500"/>
+				<refItem ref="9348a40"/>
+				<refItem ref="934bfc0"/>
+				<refItem ref="934c500"/>
+				<refItem ref="934ca40"/>
+				<refItem ref="93553c0"/>
+				<refItem ref="9355900"/>
+				<refItem ref="9355e40"/>
+				<refItem ref="935a7c0"/>
+				<refItem ref="935ad00"/>
+				<refItem ref="935b240"/>
+				<refItem ref="935f260"/>
+				<refItem ref="935f7a0"/>
+				<metadata/>
+				<refmedia ref="1"/>
+			</view>
+		</views>
+	</figure>
+	<parts>
+		<part id="931b980">
+			<metadata>
+				<value id="9224df0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[17 Inch Caliper]]>
+				</value>
+				<value id="9224e70" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8889107575]]>
+				</value>
+				<value id="9224ef0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[9XYtcuAC6Vq5bD]]>
+				</value>
+				<value id="9357c00" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="9357c80" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0"/>
+				<value id="9357d00" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="924d470">
+			<metadata>
+				<value id="92250f0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[BLEEDER-SCREW]]>
+				</value>
+				<value id="9225170" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206568]]>
+				</value>
+				<value id="92251f0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888641107/A-KIT-BLEEDER SCREW KIT]]>
+				</value>
+				<value id="9321ad0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CLaR8LsG6Vq5bD]]>
+				</value>
+				<value id="9357e00" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="9357e80" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322ad0">
+			<metadata>
+				<value id="9321c50" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[CAP-BLEEDER-SCREW]]>
+				</value>
+				<value id="9321cd0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206567]]>
+				</value>
+				<value id="9321d50" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888206567/A-SINGLE-CAP-BLEEDER-SCREW, 8888641107/A-KIT-BLEEDER SCREW KIT]]>
+				</value>
+				<value id="9321dd0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[y_eR8LsG6Vq5bD]]>
+				</value>
+				<value id="9357f80" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="9358000" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322c50">
+			<metadata>
+				<value id="9321e50" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[DUST-BOOT-17INCH-CALIPER]]>
+				</value>
+				<value id="9321ed0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206569]]>
+				</value>
+				<value id="9321f50" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888206569/A-SINGLE-DUST-BOOT-17INCH-CALIPER]]>
+				</value>
+				<value id="93221d0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CXUR8LsG6Vq5bD]]>
+				</value>
+				<value id="9358100" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="9358180" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322d10">
+			<metadata>
+				<value id="9322250" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[CALIPER-HOUSING-17INCH-LH-L-BRAND]]>
+				</value>
+				<value id="93222d0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206504]]>
+				</value>
+				<value id="9322350" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888206504/A-SINGLE-CALIPER-HOUSING-17INCH-LH-FRONT]]>
+				</value>
+				<value id="9322550" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[SmdR8LsG6Vq5bD]]>
+				</value>
+				<value id="936a5a0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936a620" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322e10">
+			<metadata>
+				<value id="9322650" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[GUIDE-PIN-WITH-REINFORCEMENT]]>
+				</value>
+				<value id="93226d0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206571]]>
+				</value>
+				<value id="9322750" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR CALIPER, 8888640646/A-KIT-GUIDE PIN KIT FRONT CALIPER]]>
+				</value>
+				<value id="93227d0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CjQR8LsG6Vq5bD]]>
+				</value>
+				<value id="936a720" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936a7a0" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322f10">
+			<metadata>
+				<value id="9322850" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[GUIDE-PIN]]>
+				</value>
+				<value id="93228d0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206578]]>
+				</value>
+				<value id="9322950" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR CALIPER, 8888640646/A-KIT-GUIDE PIN KIT FRONT CALIPER]]>
+				</value>
+				<value id="93229d0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CvVR8LsG6Vq5bD]]>
+				</value>
+				<value id="936a8a0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936a920" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9322dd0">
+			<metadata>
+				<value id="9328c60" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[SCREW-GUIDE-PIN]]>
+				</value>
+				<value id="9328ce0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206580]]>
+				</value>
+				<value id="9328d60" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888640688/A-KIT-GUIDE PIN KIT REAR CALIPER, 8888640646/A-KIT-GUIDE PIN KIT FRONT CALIPER]]>
+				</value>
+				<value id="9328de0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[C7RR8LsG6Vq5bD]]>
+				</value>
+				<value id="936aa20" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936aaa0" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323110">
+			<metadata>
+				<value id="9328e60" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[BOOT-GUIDE-PIN-FRONT-CALIPER]]>
+				</value>
+				<value id="9328ee0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206585]]>
+				</value>
+				<value id="9328f60" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888640646/A-KIT-GUIDE PIN KIT FRONT CALIPER]]>
+				</value>
+				<value id="9329160" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[SDcR8LsG6Vq5bD]]>
+				</value>
+				<value id="936aba0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936ac20" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323210">
+			<metadata>
+				<value id="9329260" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[ANCHOR-17INCH-L-BRAND]]>
+				</value>
+				<value id="93292e0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888206588]]>
+				</value>
+				<value id="9329360" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888654084/A-KIT-ANCHOR KIT 17INCH FRONT]]>
+				</value>
+				<value id="93293e0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[SPYR8LsG6Vq5bD]]>
+				</value>
+				<value id="936ad20" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936ada0" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="93232d0">
+			<metadata>
+				<value id="93295e0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[PAD SHIM 17INCH]]>
+				</value>
+				<value id="9329660" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888214127]]>
+				</value>
+				<value id="93296e0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17 INCH FRONT COMF]]>
+				</value>
+				<value id="9329960" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[z1WRNh6M6Vq5bD]]>
+				</value>
+				<value id="936aea0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936af20" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323410">
+			<metadata>
+				<value id="93299e0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[COMF-PAD-INNER-WITH-PWI-17INCH-LH-L-BRAND]]>
+				</value>
+				<value id="9329a60" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888219808]]>
+				</value>
+				<value id="9329ae0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17 INCH FRONT COMF]]>
+				</value>
+				<value id="932bd60" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[1eSRNffo6Vq5bD]]>
+				</value>
+				<value id="936b020" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936b0a0" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323510">
+			<metadata>
+				<value id="932be60" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[COMF-PAD-OUTER-17INCH-L-BRAND]]>
+				</value>
+				<value id="932bee0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888219815]]>
+				</value>
+				<value id="932bf60" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888664290/A-KIT-BRAKE PAD KIT 17 INCH FRONT COMF]]>
+				</value>
+				<value id="932c160" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[1mcRNffo6Vq5bD]]>
+				</value>
+				<value id="936b1a0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0"/>
+				<value id="936b220" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323610">
+			<metadata>
+				<value id="932c260" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[FLANGE SCREW M14*50]]>
+				</value>
+				<value id="932c2e0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888323576]]>
+				</value>
+				<value id="932c360" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888653663/A-KIT-ANCHOR KIT 16INCH FRONT, 8888654084/A-KIT-ANCHOR KIT 17INCH FRONT, 8888654412/A-KIT-BRAKE DISC KIT 16INCH FRONT, 8888654423/A-KIT-BRAKE DISC KIT 17INCH FRONT, 8888323576/B-SINGLE-FLANGE SCREW M14 X 50]]>
+				</value>
+				<value id="932c3e0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0">
+					<![CDATA[[GD_1]AK00 = AK04 | [GD_1]AK00 = AK03]]>
+				</value>
+				<value id="932c460" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[QVSV9Pgj6Vq5bD]]>
+				</value>
+				<value id="936b320" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323790">
+			<metadata>
+				<value id="932c5e0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[17INCH-FRONT-DISC-GEELY-SANYOU]]>
+				</value>
+				<value id="932c660" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888942464]]>
+				</value>
+				<value id="932c6e0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8889033004/A-KIT-17INCH-FRONT-DISC-GEELY-SANYOU]]>
+				</value>
+				<value id="932c8e0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0">
+					<![CDATA[((([GD_1]KB00 = KB06 & ([GD_1]AA00 = AA04 | [GD_1]AA00 = AA09 | [GD_1]AA00 = AA07 | [GD_1]AA00 = AAA9))))]]>
+				</value>
+				<value id="932c760" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CLZlOhQK6Vq5bD]]>
+				</value>
+				<value id="936b420" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="93238d0">
+			<metadata>
+				<value id="932c960" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[SIX POINT SOCKET SCREW M6*16]]>
+				</value>
+				<value id="932c9e0" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888007182]]>
+				</value>
+				<value id="932ca60" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888007182/A-SINGLE-SIX POINT SOCKET SCREW M6*16]]>
+				</value>
+				<value id="932d4e0" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0">
+					<![CDATA[([GD_1]AK00 = AK04 | [GD_1]AK00 = AK03)]]>
+				</value>
+				<value id="932d560" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[NZTJ$W2T6Vq5bD]]>
+				</value>
+				<value id="936b520" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="9323a10">
+			<metadata>
+				<value id="932d5e0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[BRAKE DUST SHIELD 17INCH FRONT LH]]>
+				</value>
+				<value id="932d660" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888764905]]>
+				</value>
+				<value id="932d6e0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888764905/A-SINGLE-BRAKE DUST SHIELD 17INCH FRONT LH]]>
+				</value>
+				<value id="932d760" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0">
+					<![CDATA[((([GD_1]KB00 = KB06 & [GD_1]ML00 = ML02 & [GD_1]AA00 = AA03) | ([GD_1]KB00 = KB06 & ([GD_1]AA00 = AA04 | [GD_1]AA00 = AA07 | [GD_1]AA00 = AA09))))]]>
+				</value>
+				<value id="932d7e0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[XuRhtCp66Vq5bD]]>
+				</value>
+				<value id="936b620" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+		<part id="932e520">
+			<metadata>
+				<value id="932d8e0" name="Description" decl-id="DFP" changed="0" role="2">
+					<![CDATA[SEMS SCREW M6*12]]>
+				</value>
+				<value id="932d960" name="PARTNUMBER" decl-id="PNR" changed="0" role="1">
+					<![CDATA[8888008914]]>
+				</value>
+				<value id="932d9e0" name="Spare Part ID" decl-id="_7289E92C23864C218FBC47BA2B4BBE19" changed="0">
+					<![CDATA[8888008914/A-SINGLE-SEMS SCREW M6X12]]>
+				</value>
+				<value id="932da60" name="Variant Info" decl-id="_9AAF6D963095428A857DCB9466411EE6" changed="0">
+					<![CDATA[[GD_1]AK00 = AK04 | [GD_1]AK00 = AK03]]>
+				</value>
+				<value id="932dae0" name="$PartUpdateID" decl-id="PART_UPDATE_ID_E51A9B4E7D1741028AE48C418E59A1D0" changed="0">
+					<![CDATA[CgeJ$mzP6Vq5bD]]>
+				</value>
+				<value id="936b720" name="Service Validity" decl-id="_34B82B1C406245DBB3FC39A3F0788E04" changed="0"/>
+			</metadata>
+		</part>
+	</parts>
+	<reftables>
+		<reftable name="INDENT">
+			<value descr="">
+				<![CDATA[1]]>
+			</value>
+			<value descr=".">
+				<![CDATA[2]]>
+			</value>
+			<value descr="..">
+				<![CDATA[3]]>
+			</value>
+			<value descr="...">
+				<![CDATA[4]]>
+			</value>
+			<value descr="....">
+				<![CDATA[5]]>
+			</value>
+			<value descr=".....">
+				<![CDATA[6]]>
+			</value>
+			<value descr="......">
+				<![CDATA[7]]>
+			</value>
+			<value descr=".......">
+				<![CDATA[8]]>
+			</value>
+			<value descr="........">
+				<![CDATA[9]]>
+			</value>
+		</reftable>
+		<reftable name="Ref Table for Model year">
+			<value descr="Yr1">
+				<![CDATA[2018]]>
+			</value>
+			<value descr="Yr2">
+				<![CDATA[2019]]>
+			</value>
+			<value descr="Yr3">
+				<![CDATA[2020]]>
+			</value>
+		</reftable>
+		<reftable name="Reference table for Model Year">
+			<value descr="Year1">
+				<![CDATA[2018]]>
+			</value>
+			<value descr="Year2">
+				<![CDATA[2019]]>
+			</value>
+			<value descr="Year3">
+				<![CDATA[2020]]>
+			</value>
+			<value descr="Year4">
+				<![CDATA[2021]]>
+			</value>
+			<value descr="Year5">
+				<![CDATA[2022]]>
+			</value>
+		</reftable>
+		<reftable name="Model yr ref table">
+			<value descr="Year1">
+				<![CDATA[2018]]>
+			</value>
+			<value descr="Year2">
+				<![CDATA[2019]]>
+			</value>
+			<value descr="Year3">
+				<![CDATA[2020]]>
+			</value>
+			<value descr="Year4">
+				<![CDATA[2021]]>
+			</value>
+			<value descr="Year5">
+				<![CDATA[2022]]>
+			</value>
+			<value descr="Year6">
+				<![CDATA[2023]]>
+			</value>
+		</reftable>
+	</reftables>
+</ipc>
