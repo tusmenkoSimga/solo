@@ -369,7 +369,6 @@ define(function () {
                       : Promise.resolve(n.src);
                   })
                   .then(function (o) {
-                    debugger;
                     var i = [t.use("Cortona3DSoloTouch")];
                     return /\.(svg|jpe?g|png|tiff?)/i.test(o)
                       ? (t.emit("uniview.toggleMainPanelOnlyMode", !0),

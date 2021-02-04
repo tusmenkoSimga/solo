@@ -33,7 +33,6 @@
         })
         .then(function () {
             // load solo-uniview as app skin
-            debugger;
             return solo.skin.create('app').use('solo-uniview', {
                 baseUrl: m_specUrl,
                 src: m_src,

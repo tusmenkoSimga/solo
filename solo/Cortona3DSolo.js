@@ -133,7 +133,6 @@
             return u;
           },
           loadCompanionFile: function (e) {
-            debugger;
             return r.loadResource(e, "text/xml").then(function (t) {
               var a, s;
               return t.responseXML
@@ -422,13 +421,9 @@
             e.substring(0, e.lastIndexOf("/") + 1));
       }
       function v(e, t, n) {
-        debugger;
         return new Promise(function (r, i) {
           var o = window.URL || window.webkitURL || window,
             a = new XMLHttpRequest();
-            // a.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); 
-            a.setRequestHeader('Access-Control-Allow-Origin', '*');
-            debugger;
           t && a.overrideMimeType && a.overrideMimeType(t),
             a.open("GET", e, !0),
             n && (a.responseType = n),
@@ -452,10 +447,8 @@
               }
             });
           try {
-            debugger;
             a.send(null);
           } catch (e) {
-            debugger;
             console.log(e);
             i(e);
           }
