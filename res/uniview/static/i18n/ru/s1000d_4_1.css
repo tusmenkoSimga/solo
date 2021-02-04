@@ -1,0 +1,323 @@
+/*
+    s1000d_ru.css
+    19.06.2015 18:01:37
+*/
+
+/* Autocontent */
+
+.identAndStatusSection .issueInfo[data-issuenumber]:before      { content: "Номер издания: "; }
+.identAndStatusSection .language[data-languageisocode]:before   { content: "Язык: "; }
+.identAndStatusSection .issueDate[data-day]:before              { content: "Дата издания: "; }
+
+.dmCode:after               { content: attr(data-modelIdentCode) "-" attr(data-systemDiffCode) "-" attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-disassyCode) attr(data-disassyCodeVariant) "-" attr(data-infoCode) attr(data-infoCodeVariant) "-" attr(data-itemLocationCode); }
+.dmCode[learnCode]:after    { content: attr(data-modelIdentCode) "-" attr(data-systemDiffCode) "-" attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-disassyCode) attr(data-disassyCodeVariant) "-" attr(data-infoCode) attr(data-infoCodeVariant) "-" attr(data-itemLocationCode) "-" attr(data-learnCode) "-" attr(data-learnEventCode); }
+.pmCode:after               { content: attr(data-modelIdentCode) "-" attr(data-pmIssuer) "-" attr(data-pmNumber) "-" attr(data-pmVolume); }
+
+.issueInfo[data-issuenumber]:after      { content: attr(data-issuenumber) "-" attr(data-inwork); }
+.language[data-languageisocode]:after   { content: attr(data-languageisocode) "-" attr(data-countryisocode); }
+.issueDate[data-day]:after              { content: attr(data-day) "-" attr(data-month) "-" attr(data-year) }
+
+.firstVerification:after                { content: attr(data-verificationType); }
+.skillLevel[data-skillLevelCode]:after  { content: attr(data-skillLevelCode); }
+
+.dataRestrictions:before        { content: "Ограничения по данным:"; }
+.dataDistribution:before        { content: "Распространение данных"; }
+.exportControl:before           { content: "Контроль экспорта"; }
+.dataHandling:before            { content: "Управление данными"; }
+.dataDestruction:before         { content: "Уничтожение данных"; }
+.dataDisclosure:before          { content: "Раскрытие данных"; }
+.copyright:before               { content: "Авторское право"; }
+
+.dmRefAddressItems .infoName:before { content: " - "; }
+.identNumber:before                 { content: ""; }
+.partAndSerialNumber:before         { content: "/"; }
+.natoStockNumber:before             { content: "Номенклатурный номер НАТО "; }
+.serialNumber:before                { content: "Серийный номер " attr(data-serialNumberValue); }
+.customerStockNumber:before         { content: "Номенклатурный номер заказчика "; }
+.zoneRef:before                     { content: "Зона " attr(data-zoneNumber); }
+.accessPointRef:before,                                          
+.accessPointRef[data-accessPointTypeValue="accpnl01"]:before  { content: "Люк " attr(data-accessPointNumber); }
+.accessPointRef[data-accessPointTypeValue="accpnl02"]:before  { content: "Панель " attr(data-accessPointNumber); }
+.accessPointRef[data-accessPointTypeValue="accpnl03"]:before  { content: "Электрощиток " attr(data-accessPointNumber); }
+
+.multimediaObject:before,
+.graphic:before                         { content: "Рис. " counter(figure) " "; }
+.graphic[data-sheets]:after             { content: " (Лист " counter(sheet) " из " attr(data-sheets) ")"; }
+.multimediaObject[data-sheets]:after    { content: " (Мультимедиа " counter(sheet) " из " attr(data-sheets) ")"; }
+.internalRef.irtt01:before              { content: "Рис. " attr(data-figure); }
+.internalRef.irtt02:before              { content: "Таблица " attr(data-index); }
+.internalRef.irtt03:before              { content: "Рис. " attr(data-figure); }
+.internalRef.irtt07:before              { content: "Параграф " attr(data-index); }
+.internalRef.irtt08:before              { content: "Шаг " attr(data-index); }
+.internalRef.irtt09:before              { content: "Рис. " attr(data-figure) ", Лист " attr(data-sheet); }
+.internalRef.irtt10:before              { content: "Рис. " attr(data-figure) ", " attr(data-multimediaType); }
+.internalRef.irtt11:before              { content: "Рис. " attr(data-figure) " [" attr(data-referredFragment) "]"; }
+.internalRef.irtt13[data-zoneNumber]:before                 { content: "Зона " attr(data-zoneNumber); }
+.internalRef.irtt16[data-accessPointNumber]:before          { content: attr(data-accessPointNumber); }
+.internalRef.irtt16.accpnl01[data-accessPointNumber]:before { content: "Люк " attr(data-accessPointNumber); }
+.internalRef.irtt16.accpnl02[data-accessPointNumber]:before { content: "Панель " attr(data-accessPointNumber); }
+.internalRef.irtt16.accpnl03[data-accessPointNumber]:before { content: "Электрощиток " attr(data-accessPointNumber); }
+
+#app-figure-title.multimediaObject:before,
+#app-figure-title.internalRef.irtt01:before,
+#app-figure-title.internalRef.irtt03:before,
+#app-figure-title.internalRef.irtt09:before,
+#app-figure-title.internalRef.irtt10:before,
+#app-figure-title.internalRef.irtt11:before,
+#app-figure-title.internalRef.irtt12:before,
+#app-figure-title.graphic:before { content: "Рис. " attr(data-index) " "; }
+#app-figure-title.graphic[data-subindexes]:after { content: " (Лист " attr(data-subindex) " из " attr(data-subindexes) ")"; }
+#app-figure-title.multimediaObject[data-subindexes]:after { content: " (Мультимедиа " attr(data-subindex) " из " attr(data-subindexes) ")"; }
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaObject[data-subindexes='']:after { content: none; }
+
+.personnel .numRequired[data-value]:before      { content: attr(data-value) " чел."; }
+.personnel .numRequired[data-value='1']:before  { content: attr(data-value) " чел."; }
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before   { content: "По требованию"; }
+
+.taskDuration:before    { content: "Продолжительность задачи ТО"; }
+.taskDuration:after     { content: "Подготовительные работы " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "Основные работы " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a"  "Заключительные работы " attr(data-closeupDuration) " " attr(data-unitOfMeasure); }
+
+.externalPubCode:before         { content: attr(data-pubCodingScheme); }
+.externalPubIssueInfo:before    { content: "Номер издания: "; }
+
+/* Centerhead2 titles */
+
+.mainProcedure:before           { content: "Основные работы"; }
+.content > .description:before  { content: "Описание"; }
+.maintPlanning:before           { content: "Планирование технического обслуживания"; }
+.isolationMainProcedure:before  { content: "Процедура поиска неисправности"; }
+.descrCrew:before               { content: "Руководство для экипажа/эксплуатирующего персонала"; }
+.commonRepository:before        { content: "Общий информационный репозиторий"; }
+.faultReporting:before          { content: "Отчет по неисправности"; }
+.detectionInfo:before           { content: "Сведения об обнаружении неисправности"; }
+
+.content > .refs:before         { content: "Ссылки"; }
+.preliminaryRqmts:before        { content: "Предварительные требования"; }
+.closeRqmts:before              { content: "Заключительные требования"; }
+
+/* sidehead0 titles */
+
+.cautionRepository:before                   { content: "Репозиторий предостережений"; }
+.toolRepository:before                      { content: "Репозиторий инструментов"; }
+.controlIndicatorRepository:before          { content: "Репозиторий элементов управления и индикаторов"; }
+.functionalPhysicalAreaRepository:before    { content: "Репозиторий функциональных и/или физических областей"; }
+.warningRepository:before                   { content: "Репозиторий предупреждений"; }
+.zoneRepository:before                      { content: "Репозиторий зон"; }
+.partRepository:before                      { content: "Репозиторий деталей"; }
+.functionalItemRepository:before            { content: "Репозиторий функциональных элементов"; }
+.workAreaLocationGroup:before               { content: "Участок проведения задачи ТО"; }
+
+/* Warning, Caution, Note */
+
+.warning:before { content: "ПРЕДУПРЕЖДЕНИЕ"; }
+.caution:before { content: "ВНИМАНИЕ"; }
+.note:before    { content: "Примечание"; }
+
+/* Sidehead0 titles */
+
+.productionMaintData:before { content: "Производственные данные по техническому обслуживанию"; }
+.reqCondGroup:before        { content: "Требуемые условия"; }
+.reqSupportEquips:before    { content: "Вспомогательное оборудование"; }
+.reqSupplies:before         { content: "Расходные материалы"; }
+.reqTechInfoGroup:before    { content: "Требуемые технические сведения"; }
+.reqSpares:before           { content: "Запасные части"; }
+.reqSafety:before           { content: "Меры безопасности"; }
+.reqPersons:before          { content: "Необходимый персонал"; }
+
+/* None keyword */
+
+.noSupportEquips:before,
+.noSupplies:before,
+.noSpares:before,
+.noSafety:before,
+.noConds:before             { content: "Не применяется"; }
+
+/* Tables */
+
+.table-contents > .title:before { content: "Таблица " counter(table) " "; }
+
+.header > .name:before          { content: "Наименование"; }
+.header > .ident:before         { content: "Идентификационный номер/Ссылка"; }
+.header > .qty:before           { content: "Количество"; }
+.header > .remark:before        { content: "Примечание"; }
+
+.header > .condition:before     { content: "Действие/Условие"; }
+.header > .publication:before   { content: "Модуль данных/Техническая публикация"; }
+.header > .title:before         { content: "Название"; }
+
+.header > .person:before        { content: "Персонал"; }
+.header > .category:before      { content: "Категория"; }
+.header > .skill:before         { content: "Уровень квалификации"; }
+.header > .trade:before         { content: "Специальность/Код специальности"; }
+.header > .time:before          { content: "Расчетное время"; }
+
+.dmodule:after                  { content: "Конец модуля данных"; }
+
+.dmStatus .security[data-securityClassification]:before      { content: "Гриф секретности " attr(data-securityClassification); }
+.dmStatus .security[data-securityClassification="01"]:before { content: "НЕСЕКРЕТНО"; }
+.dmStatus .security[data-securityClassification="02"]:before { content: "ДЛЯ СЛУЖЕБНОГО ПОЛЬЗОВАНИЯ"; }
+.dmStatus .security[data-securityClassification="03"]:before { content: "КОНФИДЕНЦИАЛЬНО"; }
+.dmStatus .security[data-securityClassification="04"]:before { content: "СЕКРЕТНО"; }
+.dmStatus .security[data-securityClassification="05"]:before { content: "СОВЕРШЕННО СЕКРЕТНО";}
+
+.dmStatus .responsiblePartnerCompany:before { content: "Ответственная компания-контрагент: " attr(data-enterpriseCode) " / "; }
+.dmStatus .originator:before                { content: "Разработчик: " attr(data-enterpriseCode) " / "; }
+
+.applicCrossRefTableRef:before  { content: "Модуль данных таблицы перекрестных ссылок по применимости: "; }
+.dmStatus > .applic:before      { content: "Применимость: "; }
+.techStandard:before            { content: "Технический стандарт:"; }
+.brexDmRef:before               { content: "Модуль данных BREX: "; }
+.unverified:before              { content: "Непроверенный"; }
+.firstVerification:before       { content: "Первая проверка: "; }
+.secondVerification:before      { content: "Вторая проверка: "; }
+.systemBreakdownCode:before     { content: "Код разбиения системы: "; }
+.reasonForUpdate:before         { content: "Причина обновления: "; }
+
+.skillLevel:before                              { content: "Уровень квалификации: "; }
+.personSkill .skillLevel:before                 { content: ""; }
+.skillLevel[data-skillLevelCode="sk01"]:after   { content: "Базовый"; }
+.skillLevel[data-skillLevelCode="sk02"]:after   { content: "Средний"; }
+.skillLevel[data-skillLevelCode="sk03"]:after   { content: "Продвинутый"; }
+
+.catalogSeqNumberRef:before                                             { content: "CSN " attr(data-figureNumber)attr(data-figureNumberVariant) "-" attr(data-item)attr(data-itemVariant); }
+.catalogSeqNumberRef[data-systemCode]:before                            { content: "CSN " attr(data-systemCode) "-" attr(data-subSystemCode)attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber)attr(data-figureNumberVariant) "-" attr(data-item)attr(data-itemVariant); }
+.catalogSeqNumberRef[data-itemSeqNumberValue]:before                    { content: "CSN/ISN " attr(data-figureNumber)attr(data-figureNumberVariant) "-" attr(data-item)attr(data-itemVariant) "/" attr(data-itemSeqNumberValue); }
+.catalogSeqNumberRef[data-systemCode][data-itemSeqNumberValue]:before   { content: "CSN/ISN " attr(data-systemCode) "-" attr(data-subSystemCode)attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber)attr(data-figureNumberVariant) "-" attr(data-item)attr(data-itemVariant) "/" attr(data-itemSeqNumberValue); }
+
+.reqQuantity[data-unitOfMeasure]:after  { content: " " attr(data-unitOfMeasure); }
+.materialSetRef:before                  { content: attr(data-materialSetIdent) " " attr(data-materialSetIssue); }
+
+.natoStockNumber
+    [data-natoSupplyClass]
+    [data-natoCodificationBureau]
+    [data-natoItemIdentNumberCore]:after    { content: attr(data-natoSupplyClass) "-" attr(data-natoCodificationBureau) "-" attr(data-natoItemIdentNumberCore) }
+.learningPlan:before                     { content: "План обучения"; }
+.learningOverview:before                 { content: "Обзор обучения"; }
+.learningContent:before                  { content: "Содержимое обучения"; }
+.learningSummary:before                  { content: "Сводки по обучению"; }
+.learningAssessment:before               { content: "Оценка обучения"; }
+.lcInstruction:before                    { content: "Инструкции по обучению"; }
+.lcProject:before                        { content: "Проект обучения"; }
+.lcPerformanceAnalysis:before            { content: "Анализ производительности труда"; }
+.lcCauseAnalysis:before                  { content: "Анализ причин"; }
+.lcInterventionDefinition:before         { content: "Оценка воздействия"; }
+.lcClient:before                         { content: "Описание клиента"; }
+.lcLearningPlan:before                   { content: "Описание плана обучения"; }
+.lcCourseIdentNumber:before              { content: "Идентификатор курса"; }
+.lcModificationDate:before               { content: "Дата изменения"; }
+.lcDeliveryDate:before                   { content: "Дата поставки"; }
+.lcPlanSubject:before                    { content: "Тема плана обучения"; }
+.lcOrganizationalAnalysis:before         { content: "Организационный анализ"; }
+.lcVisionStatement:before                { content: "Утверждение о стратегии"; }
+.lcMissionStatement:before               { content: "Утверждение о миссии"; }
+.lcValues:before                         { content: "Этические принципы организации"; }
+.lcGoalStatement:before                  { content: "Утверждение о цели"; }
+.lcObjectiveStatement:before             { content: "Утверждение о задаче"; }
+.lcGapAnalysis:before                    { content: "Анализ недостающих ресурсов"; }
+.lcGapItem:before                        { content: "Показатель недостающих ресурсов"; }
+.lcDesiredPerformanceStatement:before    { content: "Желаемая производительность"; }
+.lcActualPerformanceStatement:before     { content: "Фактическая производительность"; }
+.lcPlanObjective:before                  { content: "Задача плана"; }
+.lcJtaItem:before                        { content: "Элемент анализа рабочей задачи"; }
+.lcGapStatement:before                   { content: "Недостающие ресурсы"; }
+.lcOrganizationalEnvironmentAnalysis:before { content: "Анализ среды, в которой работает организация"; }
+.lcWorkEnvironmentAnalysis:before        { content: "Анализ рабочей среды"; }
+.lcManagerialSupport:before              { content: "Административная поддержка"; }
+.lcPhysicalAspectsOfSite:before          { content: "Физические условия на площадке"; }
+.lcSocialAspectsOfSite:before            { content: "Социальные условия на площадке"; }
+.lcSpecialFactors:before                 { content: "Особые факторы"; }
+.lcPerformerAnalysis:before              { content: "Оценка работника"; }
+.lcJobTitle:before                       { content: "Название должности"; }
+.lcJobCode:before                        { content: "Код должности"; }
+.lcEducationLevel:before                 { content: "Уровень образования"; }
+.lcAge:before                            { content: "Возраст"; }
+.lcProfessionalBackground:before         { content: "Профессиональный опыт"; }
+.lcKnowledge:before                      { content: "Знания"; }
+.lcSkills:before                         { content: "Квалификация"; }
+.lcAbilities:before                      { content: "Способности"; }
+.lcAttitude:before                       { content: "Отношение к работе"; }
+.lcEnvironmentalFactor:before            { content: "Факторы среды"; }
+.lcData:before                           { content: "Данные"; }
+.lcResources:before                      { content: "Ресурсы"; }
+.lcIncentives:before                     { content: "Поощрения"; }
+.lcInternalFactor:before                 { content: "Внутренние факторы"; }
+.lcCapacity:before                       { content: "Индивидуальная производительность"; }
+.lcMotives:before                        { content: "Мотивация"; }
+.lcNonTrainingInterventions:before       { content: "Неучебные воздействия"; }
+.lcPerformanceSupport:before             { content: "Поддержка обучения"; }
+.lcJobDesign:before                      { content: "Структура рабочей задачи"; }
+.lcPersonalDevelopment:before            { content: "Личное развитие"; }
+.lcHumanResourceDevelopment:before       { content: "Развитие кадровых ресурсов"; }
+.lcOrganizationalCommunication:before    { content: "Корпоративные коммуникации"; }
+.lcOrganizationalDesign:before           { content: "Организационная структура"; }
+.lcTrainingInterventions:before          { content: "Учебное воздействие"; }
+.lcTargetAudience:before                 { content: "Целевая аудитория"; }
+.lcCurrentEntryBehaviors:before          { content: "Текущее начальное состояние"; }
+.lcAttitudeTowardContent:before          { content: "Отношение к материалу"; }
+.lcLearningPreferences:before            { content: "Предпочтения в отношении учебного процесса"; }
+.lcPrerequisites:before                  { content: "Предварительные требования"; }
+.lcRequiredEntryBehaviors:before         { content: "Необходимое начальное состояние"; }
+.lcTrainingComponent:before              { content: "Компонент обучения"; }
+.lcTrainingType:before                   { content: "Тип обучения"; }
+.lcLearningStrategy:before               { content: "Стратегия обучения"; }
+.lcDuration:before                       { content: "Продолжительность"; }
+.lcTime:before                           { content: "Время"; }
+.lcRequiredFinances:before               { content: "Необходимые денежные средства"; }
+.lcRequiredPersonnel:before              { content: "Необходимый персонал"; }
+.lcRequiredFacilities:before             { content: "Необходимые помещения"; }
+.lcRequiredEquipment:before              { content: "Необходимое оборудование"; }
+.lcLocalCultureConsiderations:before     { content: "Особенности местной культуры"; }
+.lcAssessmentStrategy:before             { content: "Стратегия оценки"; }
+.lcAssessmentComponent:before            { content: "Компонент оценки"; }
+.lcMasteryScoreCriteria:before           { content: "Критерий овладения материалом"; }
+.lcPerformanceRubric:before              { content: "Категория оценки"; }
+.lcScoringMethod:before                  { content: "Метод подсчета результатов"; }
+.lcMinimumPassThreshold:before           { content: "Минимальный порог"; }
+.lcTechnicalRqmts:before                 { content: "Технические требования"; }
+.lcBrowsers:before                       { content: "Браузеры"; }
+.lcLms:before                            { content: "LMS"; }
+.lcNonLmsEnvironment:before              { content: "Среды, отличные от системы управления обучением"; }
+.lcPaperBasedMaterials:before            { content: "Бумажные материалы"; }
+.lcClassroom:before                      { content: "Классная комната"; }
+.lcOjt:before                            { content: "Обучение на рабочем месте"; }
+.lcAccessibility:before                  { content: "Доступность"; }
+.lcPlayers:before                        { content: "Проигрыватели"; }
+.lcGraphicStandards:before               { content: "Графические стандарты"; }
+.lcViewers:before                        { content: "Средства просмотра"; }
+.lcResolution:before                     { content: "Разрешение"; }
+.lcFileSizeLimitations:before            { content: "Ограничения для размеров файлов"; }
+.lcDownloadTime:before                   { content: "Время загрузки"; }
+.lcSecurity:before                       { content: "Секретность"; }
+.lcLearningObjectives:before             { content: "Задачи обучения"; }
+.lcObjectiveItem:before                  { content: "Элемент задачи"; }
+.lcInterventionImplementation:before     { content: "Внедрение воздействия"; }
+.lcPerformanceEvaluation:before          { content: "Оценка производительности труда"; }
+.lcFormativeEvaluation:before            { content: "Стимулирующая оценка"; }
+.lcSummativeEvaluation:before            { content: "Итоговая оценка"; }
+.lcImmediatePerformanceCompetence:before { content: "Непосредственное влияние на производительность"; }
+.lcJobTransfer:before                    { content: "Эффективность выполнения рабочих задач"; }
+.lcOrganizationalImpact:before           { content: "Влияние на организацию"; }
+.lcAudience:before                       { content: "Аудитория"; }
+.lcEntryBehavior:before                  { content: "Начальное состояние"; }
+.lcSection:before                        { content: "Раздел"; }
+.lcIntro:before                          { content: "Введение"; }
+.lcInteraction:before                    { content: "Обучение"; }
+.lcSummary:before                        { content: "Сводка"; }
+.lcQuestion:before                       { content: "Вопрос"; }
+.lcCorrectResponse:before                { content: "Верный ответ "}
+.lcCorrectResponse[lcValue]:before       { content: "Верный ответ: " attr(lcValue); }
+.lcAnswerOption:before,
+.lcSequenceOption:before                 { content: "Ответ"; }
+.lcNonLmsItEnvironment:before			{ content: "Среды, отличные от системы управления обучением";}
+.lcAnswerOption[id]:before,
+.lcSequenceOption[id]:before             { content: "Ответ [" attr(id) "]"; }
+.lcNonLmsItEnvironment:before			{ content: "Среды, отличные от системы управления обучением";}
+.lcObjectiveItemGroup:before				{ content: "Группа элементов задачи";}
+.lcFeedbackItem:before                   { content: "Обратная связь"; }
+.lcFeedbackItem[attemptMatch]:before     { content: "Обратная связь " "(Попыток " attr(attemptMatch) ")"; }
+.lcAsset:before                          { content: "Ресурс"; }
+.lcSequence:before                       { content: "Порядок " attr(lcValue); }
+.lcReview:before                         { content: "Обзор"; }
+.lcNextSteps:before                      { content: "Следующие шаги"; }

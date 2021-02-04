@@ -1,0 +1,66 @@
+[data-class~="task/prereq"]:before,
+[data-class~="task/postreq"]:before,
+[data-class~="task/steps"]:before,
+[data-class~="topic/related-links"]:before,
+[data-class~="taskreq-d/reqconds"]:before,
+[data-class~="taskreq-d/reqpers"]:before,
+[data-class~="taskreq-d/supequip"]:before,
+[data-class~="taskreq-d/supplies"]:before,
+[data-class~="taskreq-d/spares"]:before,
+[data-class~="taskreq-d/safety"]:before,
+[data-class~="taskreq-d/reqconds"]:before {
+	display: block;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+[data-class~="task/steps"]:before,
+[data-class~="task/ol"]:before {
+    margin-left: -40px;
+}
+
+
+[data-class~="topic/related-links"]:before,
+[data-class~="task/prereq"]:before,
+[data-class~="task/postreq"]:before,
+[data-class~="task/steps"]:before {
+	font-weight: bold;
+    font-style: italic;
+    margin-top: 2em;
+    font-size: 1.4rem;
+}
+
+[data-class~="topic/note"] {
+    display: block;
+    padding-left: 26px;
+}
+
+.relinfo > strong,
+[data-class~="task/task"] br {
+    display: none;
+}
+
+[data-class~="task/steps"] .notetitle,
+[data-class~="task/steps"] .warningtitle,
+[data-class~="task/steps"] .cautiontitle {
+    margin-top: 1em;
+}
+
+.notetitle,
+.warningtitle,
+.cautiontitle {
+    display: inline-block;
+    margin-left: -26px;
+}
+
+[data-class~="taskreq-d/nosafety"],
+[data-class~="taskreq-d/noconds"] {
+    display: block;
+    margin-left: -40px;
+}
+
+.alert-message-body * {
+    margin-left: 0;
+    padding-left: 0;
+}

@@ -1,0 +1,15 @@
+[data-class~="taskreq-d/reqconds"]:before { content: "Требуемые условия"; }
+[data-class~="taskreq-d/reqpers"]:before { content: "Необходимый персонал"; }
+[data-class~="taskreq-d/supequip"]:before { content: "Требуемое оборудование"; }
+[data-class~="taskreq-d/supplies"]:before { content: "Расходные материалы"; }
+[data-class~="taskreq-d/spares"]:before { content: "Запасные части"; }
+[data-class~="taskreq-d/safety"]:before { content: "Меры безопасности"; }
+[data-class~="task/prereq"]:before { content: "Предварительные требования"; }
+[data-class~="task/postreq"]:before { content: "Требования после завершения работ"; }
+[data-class~="task/steps"]:before { content: "Основные работы"; }
+[data-class~="topic/related-links"]:before { content: "Ссылки"; }
+[data-class~="taskreq-d/nosupeq"]:before, 
+[data-class~="taskreq-d/nosupply"]:before, 
+[data-class~="taskreq-d/nospares"]:before, 
+[data-class~="taskreq-d/nosafety"]:before, 
+[data-class~="taskreq-d/noconds"]:before { content: "Не применяется"; }

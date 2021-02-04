@@ -1,0 +1,3 @@
+span.note > *:first-child:before { content: "Примечание:"; }
+span.caution > *:first-child:before { content: "ВНИМАНИЕ:"; }
+span.warning > *:first-child:before { content: "ПРЕДУПРЕЖДЕНИЕ:"; }
